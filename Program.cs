@@ -4,12 +4,12 @@ int intentosRestantes = 3;
 
 while (intentosRestantes > 0)
 {
-    Console.Write("Adivina un número del 1 al 15: ");
+    Console.Write("Tendrás tres intentos para adivinar un número del 1 al 15, por favor introduzca un número:");
     int respuesta = Convert.ToInt32(Console.ReadLine());
 
     if (respuesta == numeroCorrecto)
     {
-        Console.WriteLine("¡Adivinaste!");
+        Console.WriteLine("¡Adivinaste, Enhorabuena!");
         break;
     }
     else if (respuesta < numeroCorrecto)
