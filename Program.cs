@@ -14,11 +14,11 @@ while (intentosRestantes > 0)
     }
     else if (respuesta < numeroCorrecto)
     {
-        Console.WriteLine("El número que buscas es mayor.");
+        Console.WriteLine("El número que estás buscando es mayor.");
     }
     else
     {
-        Console.WriteLine("El número que buscas es menor.");
+        Console.WriteLine("El número que estás buscando es menor.");
     }
 
     intentosRestantes--;
